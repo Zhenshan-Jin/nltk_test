@@ -8,7 +8,7 @@ nltk.download('wordnet', download_dir=root_folder)
 nltk.data.path.append(root_folder)
 
 # add code 
-
+# add code 2
 def compute(test):
 
     return {"result": [i.name() for i in wn.synsets("same")]}
